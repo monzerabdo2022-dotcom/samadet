@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سماديت للخياطة | Samadet Tailoring</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Tajawal', sans-serif; background-color: #fafafa; color: #1e293b; scroll-behavior: smooth; }
+        .navy-bg { background-color: #0f172a; }
+        .navy-text { color: #0f172a; }
+        .gold-gradient { background: linear-gradient(135deg, #c5a059 0%, #f3e5ab 50%, #9a7b38 100%); }
+        .gold-text { background: linear-gradient(135deg, #c5a059 0%, #d4af37 50%, #9a7b38 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gold-border { border-color: #c5a059; }
+        .glass-nav { background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(16px); }
+        .hero-bg { background: linear-gradient(rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.92)), url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat; }
+        .card-shadow { box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08); }
+    </style>
+</head>
+<body class="selection:bg-amber-600 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-amber-500/20 px-4 md:px-8 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-xl gold-gradient flex items-center justify-center text-slate-950 font-black text-2xl shadow-lg shadow-amber-500/20">
+                    <i class="fa-solid fa-scissors"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-extrabold text-white leading-none tracking-wide">سماديت <span class="gold-text">للخياطة</span></h1>
+                    <span class="text-[10px] text-slate-400 font-medium tracking-widest block mt-0.5">SAMADET TAILORING</span>
+                </div>
+            </div>
+
+            <div class="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                <a href="#hero" class="hover:text-amber-400 transition">الرئيسية</a>
+                <a href="#services" class="hover:text-amber-400 transition">خدماتنا</a>
+                <a href="#why-us" class="hover:text-amber-400 transition">لماذا سماديت؟</a>
+                <a href="#gallery" class="hover:text-amber-400 transition">معرض الأعمال</a>
+                <a href="#testimonials" class="hover:text-amber-400 transition">آراء العملاء</a>
+                <a href="#contact" class="hover:text-amber-400 transition">التواصل والموقع</a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/97431602857?text=مرحباً%20سماديت%20للخياطة👋%0Aأود%20الاستفسار%20عن%20خدمات%20التفصيل%20والخياطة" target="_blank" class="gold-gradient text-slate-950 font-bold px-5 py-2.5 rounded-full text-xs md:text-sm hover:scale-105 transition shadow-lg shadow-amber-500/20 flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>واتساب مباشر</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-bg min-h-screen flex items-center justify-center pt-28 pb-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs md:text-sm font-bold mb-6">
+                ✨ خياطة وتفصيل المأثورات والأزياء بلمسة عصرية
+            </span>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-tight">
+                دقة في التفاصيل، <br class="hidden md:inline"><span class="gold-text">وأناقة تليق بك</span>
+            </h1>
+            <p class="text-slate-300 text-sm md:text-lg max-w-2xl mx-auto leading-relaxed mb-10">
+                خدمات خياطة وتفصيل وتعديل ملابس باحترافية عالية وبأعلى معايير الجودة. متخصصون في تفصيل الملابس السودانية والشرقية للرجال والنساء.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#contact" class="gold-gradient text-slate-950 font-extrabold px-8 py-4 rounded-xl text-sm md:text-base hover:scale-105 transition shadow-xl shadow-amber-500/20 flex items-center gap-2">
+                    <i class="fa-solid fa-calendar-check"></i> احجز موعدك الآن
+                </a>
+                <a href="https://wa.me/97431602857?text=مرحباً%20سماديت%20للخياطة👋" target="_blank" class="bg-slate-800/80 text-white border border-slate-700 font-bold px-8 py-4 rounded-xl text-sm md:text-base hover:bg-slate-800 transition flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-amber-400 text-lg"></i> تواصل معنا عبر واتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Services Section -->
+    <section id="services" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-amber-600 font-bold text-xs md:text-sm uppercase tracking-widest block mb-2">خدماتنا المتميزة</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold navy-text">نلبي أرقى تطلعاتك في عالم الخياطة</h2>
+            <div class="w-16 h-1 gold-gradient mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 card-shadow hover:-translate-y-2 transition duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                </div>
+                <h3 class="text-xl font-bold navy-text mb-3">تفصيل مخصص حسب الطلب</h3>
+                <p class="text-slate-500 text-xs md:text-sm leading-relaxed">
+                    تصميم وتفصيل الأزياء والملابس السودانية للرجال والنساء بمقاسات دقيقة تضمن لك الراحة والأناقة.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 card-shadow hover:-translate-y-2 transition duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-vest"></i>
+                </div>
+                <h3 class="text-xl font-bold navy-text mb-3">تعديل وترميم الملابس</h3>
+                <p class="text-slate-500 text-xs md:text-sm leading-relaxed">
+                    خدمات تضييق وتوسيع وتعديل جميع أنواع الملابس والقطع الثمينة لتبدو وكأنها صممت خصيصاً لك.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 card-shadow hover:-translate-y-2 transition duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-shirt"></i>
+                </div>
+                <h3 class="text-xl font-bold navy-text mb-3">التصاميم والخياطة الخاصة</h3>
+                <p class="text-slate-500 text-xs md:text-sm leading-relaxed">
+                    إخراج أحدث التصاميم والموديلات العصرية والتقليدية بأيدي خياطين محترفين ذوي خبرة واسعة.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-slate-100 card-shadow hover:-translate-y-2 transition duration-300">
+                <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-scroll"></i>
+                </div>
+                <h3 class="text-xl font-bold navy-text mb-3">استشارات الأقمشة والمقاسات</h3>
+                <p class="text-slate-500 text-xs md:text-sm leading-relaxed">
+                    نساعدك في اختيار نوع القماش الأنسب لقصتك والمناسبة مع أخذ أبعاد المقاسات بكل حِرَفية.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Why Choose Us Section -->
+    <section id="why-us" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="gold-text font-bold text-xs md:text-sm uppercase tracking-widest block mb-2">لماذا تختار سماديت؟</span>
+                <h2 class="text-3xl md:text-5xl font-black mb-6 leading-tight">معايير دقيقة تجعلنا الخيار الأول دائماً</h2>
+                <p class="text-slate-400 text-xs md:text-sm leading-relaxed mb-8">
+                    نحن في "سماديت للخياطة" نضع الجودة والإتقان في مقدمة أولوياتنا، لنقدم لعملائنا تجربة خياطة مريحة ونتيجة تفوق التوقعات.
+                </p>
+
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl gold-gradient text-slate-950 flex items-center justify-center font-bold text-lg shrink-0">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">خبرة طافحة ودقة في المقاسات</h4>
+                            <p class="text-slate-400 text-xs mt-1">نعتمد على مهارات عالية في أخذ المقاسات وضبط التفاصيل بدقة متناهية.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl gold-gradient text-slate-950 flex items-center justify-center font-bold text-lg shrink-0">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">الالتزام التام بالمواعيد</h4>
+                            <p class="text-slate-400 text-xs mt-1">نحترم وقت عملائنا ونلتزم بتسليم الطلبات في التاريخ المحدد بدون تأخير.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl gold-gradient text-slate-950 flex items-center justify-center font-bold text-lg shrink-0">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">أجود الخيوط والمستلزمات</h4>
+                            <p class="text-slate-400 text-xs mt-1">نستخدم خيوطاً متينة وأقمشة ممتازة تضمن استدامة القطعة وجمال مظهراها.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=800&q=80" alt="Samadet Tailoring" class="rounded-3xl shadow-2xl border border-amber-500/20">
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Portfolio / Gallery Section -->
+    <section id="gallery" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <span class="text-amber-600 font-bold text-xs md:text-sm uppercase tracking-widest block mb-2">معرض الأعمال</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold navy-text">شاهد لمسات الإتقان والتطريز</h2>
+            <div class="w-16 h-1 gold-gradient mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="overflow-hidden rounded-2xl card-shadow group">
+                <img src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl card-shadow group">
+                <img src="https://images.unsplash.com/photo-1605289982774-9a6fef564df8?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl card-shadow group">
+                <img src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+            </div>
+            <div class="overflow-hidden rounded-2xl card-shadow group">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" class="w-full h-64 object-cover group-hover:scale-110 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="text-amber-600 font-bold text-xs md:text-sm uppercase tracking-widest block mb-2">ثقة عملاء سماديت</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold navy-text">ماذا يقول عملاؤنا عن خدماتنا؟</h2>
+                <div class="w-16 h-1 gold-gradient mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 card-shadow">
+                    <div class="flex text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-6">
+                        "ما شاء الله تبارك الله، شغل احترافي جداً ومقاسات مضبوطة من أول مرة والتزام رائع بالموعد."
+                    </p>
+                    <span class="font-bold navy-text text-sm block">محمد العبيد</span>
+                    <span class="text-[10px] text-slate-400">عميل منتظم</span>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 card-shadow">
+                    <div class="flex text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-6">
+                        "خياطة وتفصيل دقيق جداً للملابس السودانية. خامات ونظافة خياطة لا يعلى عليها."
+                    </p>
+                    <span class="font-bold navy-text text-sm block">أمجد مصطفى</span>
+                    <span class="text-[10px] text-slate-400">عميل تفصيل خاص</span>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/60 card-shadow">
+                    <div class="flex text-amber-400 text-sm mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-xs md:text-sm leading-relaxed mb-6">
+                        "خدمة التعديل والترميم ممتازة للغاية، تعامل راقي وسرعة في إنجاز العمل."
+                    </p>
+                    <span class="font-bold navy-text text-sm block">سارة الحصين</span>
+                    <span class="text-[10px] text-slate-400">عميلة تعديل وتفصيل</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contact & Location Section -->
+    <section id="contact" class="py-20 px-4 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Contact Info & Booking Form -->
+            <div class="bg-white p-8 md:p-10 rounded-3xl border border-slate-200/80 card-shadow">
+                <h3 class="text-2xl font-bold navy-text mb-2">حجز موعد واستفسار سريع</h3>
+                <p class="text-slate-500 text-xs md:text-sm mb-8">أدخل بياناتك وسنتواصل معك فوراً لتأكيد التفاصيل والموعد.</p>
+
+                <form onsubmit="event.preventDefault(); alert('تم إرسال طلبك بنجاح! سنتواصل معك فوراً.');" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold navy-text mb-2">الاسم الكامل</label>
+                        <input type="text" placeholder="أدخل اسمك" required class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs md:text-sm focus:outline-none focus:border-amber-500">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold navy-text mb-2">رقم الهاتف / الواتساب</label>
+                        <input type="tel" placeholder="05xxxxxxxx" required class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs md:text-sm focus:outline-none focus:border-amber-500">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold navy-text mb-2">نوع الخدمة المطلوبة</label>
+                        <select class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs md:text-sm focus:outline-none focus:border-amber-500">
+                            <option>تفصيل ملابس جديد</option>
+                            <option>تعديل وتضييق ملابس</option>
+                            <option>استشارة واختيار أقمشة</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="w-full gold-gradient text-slate-950 font-bold py-3.5 rounded-xl text-sm shadow-lg shadow-amber-500/20 hover:opacity-95 transition">
+                        تأكيد وإرسال الطلب
+                    </button>
+                </form>
+            </div>
+
+            <!-- Location & Map -->
+            <div class="flex flex-col justify-between space-y-6">
+                <div class="bg-slate-900 text-white p-8 rounded-3xl">
+                    <h3 class="text-xl font-bold gold-text mb-6">ساعات العمل والتواصل المباشر</h3>
+                    <div class="space-y-4 text-xs md:text-sm">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-clock text-amber-400 text-lg"></i>
+                            <span>ساعات العمل: السبت - الخميس (9:00 صباحاً - 10:00 مساءً)</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-amber-400 text-lg"></i>
+                            <span>الهاتف المباشر: +974 3160 2857</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-location-dot text-amber-400 text-lg"></i>
+                            <span>الموقع: سماديت للخياطة والتفصيل</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed -->
+                <div class="h-64 rounded-3xl overflow-hidden border border-slate-200 card-shadow">
+                    <iframe class="w-full h-full border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.4851234567!2d51.5!3d25.28!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE2JzQ4LjAiTiA1McKwMzAnMDAuMCJF!5e0!3m2!1sar!2sqa!4v1600000000000" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 text-center py-6 border-t border-slate-800 text-xs">
+        <p>© 2026 جميع الحقوق محفوظة لـ <span class="gold-text font-bold">سماديت للخياطة والتفصيل</span></p>
+    </footer>
+
+</body>
+</html>
